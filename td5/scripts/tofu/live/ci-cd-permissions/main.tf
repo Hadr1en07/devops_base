@@ -23,6 +23,6 @@ module "iam_roles" {
   enable_iam_role_for_plan  = true                                
   enable_iam_role_for_apply = true                                
 
-  tofu_state_bucket         = "devops-state-bucket" 
-  tofu_state_dynamodb_table = "devops-tofu-state" 
+  tofu_state_bucket         = "devops-state-bucket-had" 
+  tofu_state_dynamodb_table = "devops-dynanotable-had" 
 }
